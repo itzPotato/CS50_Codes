@@ -1,0 +1,12 @@
+We can analyze the user's music's average energy, valence, and danceability.
+
+AVG(Songs.energy)': 0.789
+
+AVG(valance) = 0.484443
+Based on the valence value, we understand that the user listens to both happy and sad songs.
+
+AVG(Danceability) = 0.71646
+
+Conclusion: After analyzing the user's valence value, we come to understand that they listen to average music. With this, I think the user falls into the blue category.
+
+Hypothesis: I think this specific set of data may not be the best way to represent the user's listening. I say so because the data set only contains the top 100 songs, and this might not represent all of the required data that could change the end result of this interpretation.
