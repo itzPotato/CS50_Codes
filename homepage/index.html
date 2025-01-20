@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>My Website</title>
+</head>
+<body class="home-page">
+    <header>
+        <h1>My Cool Website</h1>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome!</h2>
+            <p>My name is Rohan, and I'm a high school freshmen from California. Some of my hobbies include piano, tennis, coding solving the rubik's cube. One fun-fact about me is that I am 5'9.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Made by Rohan Sashank Babbellapati in 2024 for CS50's Homepage</p>
+    </footer>
+    <script>
+        // Highlight the active navigation link
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the current page's URL
+            const currentPage = window.location.href;
+
+            // Get all navigation links
+            const navLinks = document.querySelectorAll(".nav-link");
+
+            navLinks.forEach(link => {
+                // Check if the link's href matches the current page's URL
+                if (link.href === currentPage) {
+                    link.style.backgroundColor = "#007bff"; // Highlight active link
+                    link.style.color = "#fff";
+                }
+            });
+        });
+    </script>
+</body>
+</html>

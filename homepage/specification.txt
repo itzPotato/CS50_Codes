@@ -1,0 +1,21 @@
+HTML Tags:
+<html> - This is like the top wrapper for everything. It’s there so the browser knows it's an HTML document.
+<head> - This is where I put all the behind-the-scenes stuff like links to CSS or the page title.
+<body> - This is where all the visible content goes, like text and images.
+<header> - I used this to make the top part of my site, like the title and navigation links.
+<h1> - This is the main big title for the page, like a headline.
+<nav> - This is where I put all the links for navigating between pages.
+<ul> - I made a list of links because it’s easier to organize them.
+<li> - Each list item holds one of the navigation links.
+<a> - These are the actual links that take you to other pages.
+<main> - It’s like the main section of the page where the important content goes.
+<section> - I used this to divide up the content inside the main area.
+<h2> - This is a smaller headline for subtopics, like titles inside sections.
+<p> - These are paragraphs where I put all the text.
+<footer> - The bottom part of the page, like for copyrights and stuff.
+
+CSS Selectors:
+body - I styled the body to make the font Arial and add consistent spacing for all pages.
+.nav-link - This class is for the navigation links. I made them white and spaced them out a bit.
+.home-page h1 - This selector changes the color of the homepage title to blue.
+.about-page h2 - This selector makes the about page subheading green.

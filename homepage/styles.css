@@ -1,0 +1,58 @@
+/* General styles for all pages */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+/* Page-specific styles */
+.home-page h1 {
+    color: #007bff;
+}
+
+.about-page h2 {
+    color: #28a745;
+}
+
+.services-page h2 {
+    color: #ffc107;
+}
+
+.contact-page h2 {
+    color: #dc3545;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
